@@ -1,0 +1,23 @@
+{
+    "name": "namelesscoder/typo3-cms-progressor",
+    "description": "Progress monitoring in backend of long-running TYPO3 tasks",
+    "type": "typo3-cms-extension",
+    "license": "GPL-2.0+",
+    "autoload": {
+        "psr-4": {
+            "NamelessCoder\\Progressor\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NamelessCoder\\Progressor\\Tests": "Tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "typo3/cms-core": "^8.7|^9|dev-master"
+    },
+    "replace": {
+        "progressor": "self.version"
+    }
+}

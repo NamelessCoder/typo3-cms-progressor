@@ -1,0 +1,2 @@
+  # cat=basic/enable; type=boolean; label=DataHandler Progress Integration: Enable this to monitor progress of DataHandler operations with a progress bar (one bar created per backend user who triggers actions, but all bars visible to all users)
+dataHandlerProgress = 0
